@@ -1,5 +1,6 @@
 # DifyTestServerの環境構築
 
+## ConoHa VPS編
 #### VPSにサーバー追加
 - Ubuntu 24.04 (x86_64)
 - サービス: VPS
@@ -31,4 +32,4 @@
 #### Difyの起動
 - `sudo docker-compose up -d`
 - 開く
-  - `http://host_ip`
+  - `http://{your_ip_address}`
